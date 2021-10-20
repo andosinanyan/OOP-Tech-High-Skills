@@ -3,6 +3,7 @@ import java.util.*
 fun main(){
     var human1 = createAHuman()
     var human2 = createAHuman()
+
 }
 
 
@@ -18,5 +19,5 @@ fun createAHuman() : Human{
     println("Greq dzer azgutyun@")
     val nationality = scanner.next()
 
-    return Human(name,surname,age,nationality)
+    return Student(name,surname,age,nationality,"management",4,"UFAR",18)
 }
